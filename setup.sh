@@ -13,7 +13,8 @@ make
 sudo make install
 
 cd ..
-sudo apt-get install libffi-dev git libatlas-base-dev cython -y
+sudo apt-get install libffi-dev git libatlas-base-dev python3.7-venv cython -y
+
 git clone https://github.com/freqtrade/freqtrade.git
 cd freqtrade
 ./setup.sh --install
