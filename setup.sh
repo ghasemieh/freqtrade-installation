@@ -12,6 +12,8 @@ cd cmake-3.18.3
 make
 sudo make install
 
+pip install wheel
+
 cd ..
 sudo apt-get install libffi-dev git libatlas-base-dev python3.7-venv cython -y
 
