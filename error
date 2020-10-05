@@ -1,6 +1,119 @@
+-------------------------
+Updating your virtual env
+-------------------------
+pip install in-progress. Please wait...
+Collecting pip
+  Using cached pip-20.2.3-py2.py3-none-any.whl (1.5 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-20.2.3
+Do you want to install dependencies for dev [y/N]? N
+Collecting numpy==1.19.2
+  Using cached numpy-1.19.2-cp38-cp38-manylinux2014_aarch64.whl (12.2 MB)
+Processing /root/.cache/pip/wheels/9a/03/34/e953fd5e75eb7fcfa766d8f38f74d8d37cfd02451ed9141ce1/pandas-1.1.2-cp38-cp38-linux_aarch64.whl
+Collecting ccxt==1.34.59
+  Using cached ccxt-1.34.59-py2.py3-none-any.whl (1.9 MB)
+Collecting SQLAlchemy==1.3.19
+  Using cached SQLAlchemy-1.3.19-cp38-cp38-manylinux2014_aarch64.whl (1.3 MB)
+Collecting python-telegram-bot==12.8
+  Using cached python_telegram_bot-12.8-py2.py3-none-any.whl (375 kB)
+Collecting arrow==0.16.0
+  Using cached arrow-0.16.0-py2.py3-none-any.whl (50 kB)
+Collecting cachetools==4.1.1
+  Using cached cachetools-4.1.1-py3-none-any.whl (10 kB)
+Collecting requests==2.24.0
+  Using cached requests-2.24.0-py2.py3-none-any.whl (61 kB)
+Collecting urllib3==1.25.10
+  Using cached urllib3-1.25.10-py2.py3-none-any.whl (127 kB)
+Collecting wrapt==1.12.1
+  Using cached wrapt-1.12.1.tar.gz (27 kB)
+Collecting jsonschema==3.2.0
+  Using cached jsonschema-3.2.0-py2.py3-none-any.whl (56 kB)
+Collecting TA-Lib==0.4.18
+  Using cached TA-Lib-0.4.18.tar.gz (265 kB)
+Collecting tabulate==0.8.7
+  Using cached tabulate-0.8.7-py3-none-any.whl (24 kB)
+Collecting pycoingecko==1.3.0
+  Using cached pycoingecko-1.3.0-py3-none-any.whl (7.1 kB)
+Collecting jinja2==2.11.2
+  Using cached Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+Collecting tables==3.6.1
+  Using cached tables-3.6.1.tar.gz (4.6 MB)
+Collecting blosc==1.9.2
+  Using cached blosc-1.9.2.tar.gz (816 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+    Preparing wheel metadata ... done
+Processing /root/.cache/pip/wheels/bd/ee/b5/5c4d41ed55a76e1146f83e660ae4554c370a67a422ba29b77a/py_find_1st-1.1.4-cp38-cp38-linux_aarch64.whl
+Collecting python-rapidjson==0.9.1
+  Using cached python-rapidjson-0.9.1.tar.gz (193 kB)
+Collecting sdnotify==0.3.2
+  Using cached sdnotify-0.3.2.tar.gz (2.5 kB)
+Collecting flask==1.1.2
+  Using cached Flask-1.1.2-py2.py3-none-any.whl (94 kB)
+Collecting flask-jwt-extended==3.24.1
+  Using cached Flask-JWT-Extended-3.24.1.tar.gz (31 kB)
+Collecting flask-cors==3.0.9
+  Using cached Flask_Cors-3.0.9-py2.py3-none-any.whl (14 kB)
+Collecting colorama==0.4.3
+  Using cached colorama-0.4.3-py2.py3-none-any.whl (15 kB)
+Collecting questionary==1.5.2
+  Using cached questionary-1.5.2-py3-none-any.whl (26 kB)
+Collecting prompt-toolkit==3.0.7
+  Using cached prompt_toolkit-3.0.7-py3-none-any.whl (355 kB)
+Collecting pytz>=2017.2
+  Using cached pytz-2020.1-py2.py3-none-any.whl (510 kB)
+Collecting python-dateutil>=2.7.3
+  Using cached python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+Collecting aiodns==1.1.1; python_version >= "3.5.2"
+  Using cached aiodns-1.1.1-py2.py3-none-any.whl (6.4 kB)
+Requirement already satisfied, skipping upgrade: setuptools>=38.5.1 in ./.env/lib/python3.8/site-packages (from ccxt==1.34.59->-r requirements.txt (line 4)) (44.0.0)
+Collecting cryptography>=2.6.1
+  Using cached cryptography-3.1.1-cp35-abi3-manylinux2014_aarch64.whl (2.6 MB)
+Collecting certifi>=2018.1.18
+  Using cached certifi-2020.6.20-py2.py3-none-any.whl (156 kB)
+Collecting aiohttp==3.6.2; python_version >= "3.5.2"
+  Using cached aiohttp-3.6.2-py3-none-any.whl (441 kB)
+Collecting yarl==1.1.0; python_version >= "3.5.2"
+  Using cached yarl-1.1.0.tar.gz (156 kB)
+Collecting tornado>=5.1
+  Using cached tornado-6.0.4.tar.gz (496 kB)
+Collecting decorator>=4.4.0
+  Using cached decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Collecting idna<3,>=2.5
+  Using cached idna-2.10-py2.py3-none-any.whl (58 kB)
+Collecting chardet<4,>=3.0.2
+  Using cached chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Collecting six>=1.11.0
+  Using cached six-1.15.0-py2.py3-none-any.whl (10 kB)
+Collecting pyrsistent>=0.14.0
+  Using cached pyrsistent-0.17.3.tar.gz (106 kB)
+Collecting attrs>=17.4.0
+  Using cached attrs-20.2.0-py2.py3-none-any.whl (48 kB)
+Collecting MarkupSafe>=0.23
+  Using cached MarkupSafe-1.1.1.tar.gz (19 kB)
+Collecting numexpr>=2.6.2
+  Using cached numexpr-2.7.1.tar.gz (99 kB)
+Collecting Werkzeug>=0.15
+  Using cached Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+Collecting click>=5.1
+  Using cached click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting itsdangerous>=0.24
+  Using cached itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting PyJWT>=1.6.4
+  Using cached PyJWT-1.7.1-py2.py3-none-any.whl (18 kB)
+Collecting wcwidth
+  Using cached wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
 Collecting pycares>=1.0.0
-  Downloading pycares-3.1.1.tar.gz (233 kB)
-     |████████████████████████████████| 233 kB 9.8 MB/s
+  Using cached pycares-3.1.1.tar.gz (233 kB)
+Collecting cffi!=1.11.3,>=1.8
+  Using cached cffi-1.14.3-cp38-cp38-manylinux2014_aarch64.whl (208 kB)
+Processing /root/.cache/pip/wheels/78/82/3a/e149e5c0e123a9094d46ec7249c95ceff6d63c90dcdd2c295d/multidict-4.7.6-cp38-cp38-linux_aarch64.whl
+Collecting async-timeout<4.0,>=3.0
+  Using cached async_timeout-3.0.1-py3-none-any.whl (8.2 kB)
 Collecting pycparser
   Using cached pycparser-2.20-py2.py3-none-any.whl (112 kB)
 Using legacy 'setup.py install' for wrapt, since package 'wheel' is not installed.
@@ -15,42 +128,31 @@ Using legacy 'setup.py install' for pyrsistent, since package 'wheel' is not ins
 Using legacy 'setup.py install' for MarkupSafe, since package 'wheel' is not installed.
 Using legacy 'setup.py install' for numexpr, since package 'wheel' is not installed.
 Using legacy 'setup.py install' for pycares, since package 'wheel' is not installed.
-Building wheels for collected packages: pandas, blosc, py-find-1st, multidict
-  Building wheel for pandas (PEP 517) ... done
-  Created wheel for pandas: filename=pandas-1.1.2-cp38-cp38-linux_aarch64.whl size=42501950 sha256=c629756f51e218a1cd6a84d06995c681f1e57456f3dc342833eaf9452d40ba49
-  Stored in directory: /root/.cache/pip/wheels/9a/03/34/e953fd5e75eb7fcfa766d8f38f74d8d37cfd02451ed9141ce1
+Building wheels for collected packages: blosc
   Building wheel for blosc (PEP 517) ... error
   ERROR: Command errored out with exit status 1:
-   command: /home/ubuntu/freqtrade/.env/bin/python3.8 /home/ubuntu/freqtrade/.env/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py build_wheel /tmp/tmpjhem3uk4
-       cwd: /tmp/pip-install-njk1i0wj/blosc
+   command: /root/freqtrade/.env/bin/python3.8 /root/freqtrade/.env/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py build_wheel /tmp/tmp8krx567g
+       cwd: /tmp/pip-install-r9bbn2f9/blosc
   Complete output (9 lines):
-    File "/tmp/pip-build-env-enyheqd1/overlay/lib/python3.8/site-packages/skbuild/setuptools_wrap.py", line 560, in setup
+    File "/tmp/pip-build-env-avbu1qs1/overlay/lib/python3.8/site-packages/skbuild/setuptools_wrap.py", line 560, in setup
       cmkr = cmaker.CMaker(cmake_executable)
-    File "/tmp/pip-build-env-enyheqd1/overlay/lib/python3.8/site-packages/skbuild/cmaker.py", line 95, in __init__
+    File "/tmp/pip-build-env-avbu1qs1/overlay/lib/python3.8/site-packages/skbuild/cmaker.py", line 95, in __init__
       self.cmake_version = get_cmake_version(self.cmake_executable)
-    File "/tmp/pip-build-env-enyheqd1/overlay/lib/python3.8/site-packages/skbuild/cmaker.py", line 81, in get_cmake_version
+    File "/tmp/pip-build-env-avbu1qs1/overlay/lib/python3.8/site-packages/skbuild/cmaker.py", line 81, in get_cmake_version
       raise SKBuildError(
   Traceback (most recent call last):
 
   Problem with the CMake installation, aborting build. CMake executable is cmake
   ----------------------------------------
   ERROR: Failed building wheel for blosc
-  Building wheel for py-find-1st (PEP 517) ... done
-  Created wheel for py-find-1st: filename=py_find_1st-1.1.4-cp38-cp38-linux_aarch64.whl size=37033 sha256=5a09d86bbdd8ad55fe8d1c9cd4d461b350fc101e35b4292f069e946b8346209b
-  Stored in directory: /root/.cache/pip/wheels/bd/ee/b5/5c4d41ed55a76e1146f83e660ae4554c370a67a422ba29b77a
-  Building wheel for multidict (PEP 517) ... done
-  Created wheel for multidict: filename=multidict-4.7.6-cp38-cp38-linux_aarch64.whl size=164387 sha256=61d5a6b607e5569b66d215f4f3f2e8a2c008414d32fe3f2621452cbc2df75c15
-  Stored in directory: /root/.cache/pip/wheels/78/82/3a/e149e5c0e123a9094d46ec7249c95ceff6d63c90dcdd2c295d
-Successfully built pandas py-find-1st multidict
 Failed to build blosc
 ERROR: Could not build wheels for blosc which use PEP 517 and cannot be installed directly
 Dev dependencies ignored.
-Obtaining file:///home/ubuntu/freqtrade
+Obtaining file:///root/freqtrade
 Collecting SQLAlchemy
   Using cached SQLAlchemy-1.3.19-cp38-cp38-manylinux2014_aarch64.whl (1.3 MB)
 Collecting TA-Lib
-  Downloading TA-Lib-0.4.19.tar.gz (267 kB)
-     |████████████████████████████████| 267 kB 1.3 MB/s
+  Using cached TA-Lib-0.4.19.tar.gz (267 kB)
 Collecting arrow
   Using cached arrow-0.16.0-py2.py3-none-any.whl (50 kB)
 Collecting blosc
@@ -61,8 +163,7 @@ Collecting blosc
 Collecting cachetools
   Using cached cachetools-4.1.1-py3-none-any.whl (10 kB)
 Collecting ccxt>=1.24.96
-  Downloading ccxt-1.35.2-py2.py3-none-any.whl (1.9 MB)
-     |████████████████████████████████| 1.9 MB 993 kB/s
+  Using cached ccxt-1.35.22-py2.py3-none-any.whl (1.9 MB)
 Collecting colorama
   Using cached colorama-0.4.3-py2.py3-none-any.whl (15 kB)
 Collecting jinja2
@@ -76,13 +177,13 @@ Collecting prompt-toolkit
   Using cached prompt_toolkit-3.0.7-py3-none-any.whl (355 kB)
 Processing /root/.cache/pip/wheels/bd/ee/b5/5c4d41ed55a76e1146f83e660ae4554c370a67a422ba29b77a/py_find_1st-1.1.4-cp38-cp38-linux_aarch64.whl
 Collecting pycoingecko
-  Using cached pycoingecko-1.3.0-py3-none-any.whl (7.1 kB)
+  Using cached pycoingecko-1.4.0-py3-none-any.whl (7.4 kB)
 Collecting python-rapidjson
   Using cached python-rapidjson-0.9.1.tar.gz (193 kB)
 Collecting python-telegram-bot
   Using cached python_telegram_bot-12.8-py2.py3-none-any.whl (375 kB)
 Collecting questionary
-  Using cached questionary-1.5.2-py3-none-any.whl (26 kB)
+  Using cached questionary-1.6.0-py3-none-any.whl (27 kB)
 Collecting requests
   Using cached requests-2.24.0-py2.py3-none-any.whl (61 kB)
 Collecting sdnotify
@@ -97,25 +198,25 @@ Collecting wrapt
   Using cached wrapt-1.12.1.tar.gz (27 kB)
 Collecting python-dateutil>=2.7.0
   Using cached python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+Requirement already satisfied: setuptools>=38.5.1 in ./.env/lib/python3.8/site-packages (from ccxt>=1.24.96->freqtrade===develop-301598ba) (44.0.0)
 Collecting cryptography>=2.6.1
   Using cached cryptography-3.1.1-cp35-abi3-manylinux2014_aarch64.whl (2.6 MB)
-Collecting yarl==1.1.0; python_version >= "3.5.2"
-  Using cached yarl-1.1.0.tar.gz (156 kB)
+Collecting aiodns==1.1.1; python_version >= "3.5.2"
+  Using cached aiodns-1.1.1-py2.py3-none-any.whl (6.4 kB)
 Collecting certifi>=2018.1.18
   Using cached certifi-2020.6.20-py2.py3-none-any.whl (156 kB)
 Collecting aiohttp==3.6.2; python_version >= "3.5.2"
   Using cached aiohttp-3.6.2-py3-none-any.whl (441 kB)
-Requirement already satisfied: setuptools>=38.5.1 in ./.env/lib/python3.8/site-packages (from ccxt>=1.24.96->freqtrade===develop-d2111c08) (44.0.0)
-Collecting aiodns==1.1.1; python_version >= "3.5.2"
-  Using cached aiodns-1.1.1-py2.py3-none-any.whl (6.4 kB)
+Collecting yarl==1.1.0; python_version >= "3.5.2"
+  Using cached yarl-1.1.0.tar.gz (156 kB)
 Collecting MarkupSafe>=0.23
   Using cached MarkupSafe-1.1.1.tar.gz (19 kB)
-Collecting six>=1.11.0
-  Using cached six-1.15.0-py2.py3-none-any.whl (10 kB)
 Collecting pyrsistent>=0.14.0
   Using cached pyrsistent-0.17.3.tar.gz (106 kB)
 Collecting attrs>=17.4.0
   Using cached attrs-20.2.0-py2.py3-none-any.whl (48 kB)
+Collecting six>=1.11.0
+  Using cached six-1.15.0-py2.py3-none-any.whl (10 kB)
 Collecting pytz>=2017.2
   Using cached pytz-2020.1-py2.py3-none-any.whl (510 kB)
 Collecting wcwidth
@@ -124,19 +225,19 @@ Collecting tornado>=5.1
   Using cached tornado-6.0.4.tar.gz (496 kB)
 Collecting decorator>=4.4.0
   Using cached decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
-Collecting idna<3,>=2.5
-  Using cached idna-2.10-py2.py3-none-any.whl (58 kB)
 Collecting chardet<4,>=3.0.2
   Using cached chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Collecting idna<3,>=2.5
+  Using cached idna-2.10-py2.py3-none-any.whl (58 kB)
 Collecting numexpr>=2.6.2
   Using cached numexpr-2.7.1.tar.gz (99 kB)
 Collecting cffi!=1.11.3,>=1.8
   Using cached cffi-1.14.3-cp38-cp38-manylinux2014_aarch64.whl (208 kB)
-Processing /root/.cache/pip/wheels/78/82/3a/e149e5c0e123a9094d46ec7249c95ceff6d63c90dcdd2c295d/multidict-4.7.6-cp38-cp38-linux_aarch64.whl
-Collecting async-timeout<4.0,>=3.0
-  Using cached async_timeout-3.0.1-py3-none-any.whl (8.2 kB)
 Collecting pycares>=1.0.0
   Using cached pycares-3.1.1.tar.gz (233 kB)
+Collecting async-timeout<4.0,>=3.0
+  Using cached async_timeout-3.0.1-py3-none-any.whl (8.2 kB)
+Processing /root/.cache/pip/wheels/78/82/3a/e149e5c0e123a9094d46ec7249c95ceff6d63c90dcdd2c295d/multidict-4.7.6-cp38-cp38-linux_aarch64.whl
 Collecting pycparser
   Using cached pycparser-2.20-py2.py3-none-any.whl (112 kB)
 Using legacy 'setup.py install' for TA-Lib, since package 'wheel' is not installed.
@@ -153,14 +254,14 @@ Using legacy 'setup.py install' for pycares, since package 'wheel' is not instal
 Building wheels for collected packages: blosc
   Building wheel for blosc (PEP 517) ... error
   ERROR: Command errored out with exit status 1:
-   command: /home/ubuntu/freqtrade/.env/bin/python3.8 /home/ubuntu/freqtrade/.env/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py build_wheel /tmp/tmpdlpug585
-       cwd: /tmp/pip-install-egcytzsg/blosc
+   command: /root/freqtrade/.env/bin/python3.8 /root/freqtrade/.env/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py build_wheel /tmp/tmp9jtqusp_
+       cwd: /tmp/pip-install-a9elnp3w/blosc
   Complete output (9 lines):
-    File "/tmp/pip-build-env-bnxp43k1/overlay/lib/python3.8/site-packages/skbuild/setuptools_wrap.py", line 560, in setup
+    File "/tmp/pip-build-env-j_5xvlg7/overlay/lib/python3.8/site-packages/skbuild/setuptools_wrap.py", line 560, in setup
       cmkr = cmaker.CMaker(cmake_executable)
-    File "/tmp/pip-build-env-bnxp43k1/overlay/lib/python3.8/site-packages/skbuild/cmaker.py", line 95, in __init__
+    File "/tmp/pip-build-env-j_5xvlg7/overlay/lib/python3.8/site-packages/skbuild/cmaker.py", line 95, in __init__
       self.cmake_version = get_cmake_version(self.cmake_executable)
-    File "/tmp/pip-build-env-bnxp43k1/overlay/lib/python3.8/site-packages/skbuild/cmaker.py", line 81, in get_cmake_version
+    File "/tmp/pip-build-env-j_5xvlg7/overlay/lib/python3.8/site-packages/skbuild/cmaker.py", line 81, in get_cmake_version
       raise SKBuildError(
   Traceback (most recent call last):
 
